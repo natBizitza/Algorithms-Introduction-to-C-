@@ -178,50 +178,55 @@ namespace HolaMundo
             *de 3 dígitos y que muestre en pantalla el resultado de sumarlos.
             */
 
-            Console.WriteLine("Type a three-digit number");
+            //Console.WriteLine("Type a three-digit number");
 
-            int a;
+            //int a;
 
-            a = Convert.ToInt32(Console.ReadLine());
+            //a = Convert.ToInt32(Console.ReadLine());
 
-            int b = a / 100;
-            int c = (a % 100) / 10;
-            int d = a % 100 - c*10;
+            //int b = a / 100;
+            //int c = (a % 100) / 10;
+            //int d = a % 100 - c*10;
 
-            Console.WriteLine("The sum is " + (b+c+d));
+            //Console.WriteLine("The sum is " + (b+c+d));
 
 
-            /* 
-             * Escribe un programa que pida al usuario un dígito (n) y calcule y muestre el valor de n+nn+nnn. 
-             * Por ejemplo si el usuario introduce 5 el programa calcularía 5 + 55 + 555
-             */
+            ///* 
+            // * Escribe un programa que pida al usuario un dígito (n) y calcule y muestre el valor de n+nn+nnn. 
+            // * Por ejemplo si el usuario introduce 5 el programa calcularía 5 + 55 + 555
+            // */
 
-            Console.WriteLine("Type a one-digit number");
+            //Console.WriteLine("Type a one-digit number");
 
-            int numero;
+            //int numero;
 
-            numero = Convert.ToInt32(Console.ReadLine());
+            //numero = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("It's " + (numero + Convert.ToInt32(Convert.ToString(numero) + Convert.ToString(numero)) + Convert.ToInt32((Convert.ToString(numero) + Convert.ToString(numero) + Convert.ToString(numero)))));
+            //Console.WriteLine("It's " + (numero + Convert.ToInt32(Convert.ToString(numero) + Convert.ToString(numero)) + Convert.ToInt32((Convert.ToString(numero) + Convert.ToString(numero) + Convert.ToString(numero)))));
 
-            // Another way: numero + numero*11+ numero*111
+            //// Another way: numero + numero*11+ numero*111
 
-            // Escribe un programa que pida al usuario un número y convierta el string a un int y lo muestre en pantalla.
+            //// Escribe un programa que pida al usuario un número y convierta el string a un int y lo muestre en pantalla.
 
-            Console.WriteLine("Type a number");
+            //Console.WriteLine("Type a number");
 
-            int num14;
+            //int num14;
 
-            num14 = Convert.ToInt32(Console.ReadLine());
+            //num14 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(num14);
+            //Console.WriteLine(num14);
 
             // Escribe un programa que calcule el resto de dividir dos números sin utilizar el operador de división de resto (%)
 
+            float num17=5;
+            float num18 = 3;
 
+            float num19 = num17 / num18;
+            float num20 = (int)(num17 / num18);
 
+            float final = num19 - num20;
 
-
+            Console.WriteLine(final);
 
 
 
