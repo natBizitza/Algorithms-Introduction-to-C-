@@ -218,19 +218,73 @@ namespace HolaMundo
 
             // Escribe un programa que calcule el resto de dividir dos números sin utilizar el operador de división de resto (%)
 
-            float num17=5;
-            float num18 = 3;
+        //    float num17=5;
+        //    float num18 = 3;
 
-            float num19 = num17 / num18;
-            float num20 = (int)(num17 / num18);
+        //    float num19 = num17 / num18;
 
-            float final = num19 - num20;
+        ////cast the number to int
+        //    float num20 = (int)(num17 / num18);
 
-            Console.WriteLine(final);
+        //    float final = num19 - num20;
+
+        //    Console.WriteLine(final);
+
+            //Escribe un programa que le pida al usuario un número de pulgadas y lo convierta a metros (una pulgada son 0.0254 metros)
+      
+            //Console.WriteLine("Type a number of inches here...");
+
+            //double inch;
+
+            //inch = Convert.ToDouble(Console.ReadLine());
+
+            //double meters = inch * 0.0254;
+
+            //Console.WriteLine(meters);
+
+            //// Escribe un programa que pida un número de minutos y muestre cuantos años y días son
+
+            //Console.WriteLine("Type some number of minutes...");
+
+            //double mins;
+
+            //mins =Convert.ToDouble(Console.ReadLine());
+
+            //double years = mins / (60 * 24 * 365);
+
+            //double days = mins / (60 * 24);
+
+            //Console.WriteLine("It´s " + years + " years and " + days + " days.");
+
+            /*Escribe un programa que pida una distancia (en metros), y el tiempo tardado 
+             * (como tres números: horas, minutos y segundos) y que muestre la velocidad en metros por segundo y kilómetros por hora.
+             */
+
+            //Console.WriteLine("Type your distance...");
+
+            //double ms;
+
+            //ms = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Type your time in seconds");
+
+            //double time;
+
+            //time = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Your speed is " + (ms / time) + " m/s " + (ms/1000 / (time/360)) + " km/h.");
+
+            //Escribe un programa que genere un número aleatorio entre el 1 y el 100(pista: hay que utilizar una función).
+            
+            Random rnd = new Random();
+            int nbr = rnd.Next(1, 100);
+
+            Console.WriteLine(nbr);
 
 
 
-            Console.ReadLine();
+
+        Console.ReadLine();
 
 
 }
